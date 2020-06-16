@@ -4,7 +4,7 @@
 #include <BlynkSimpleEsp8266.h>
 #include <SoftwareSerial.h>
 
-SoftwareSerial serial;
+SoftwareSerial serial; // Tx(NODEMCU) to Rx(arduino), and Rx(NODEMCU) to TX(arduino)
  
 int pinValue1;
 int pinValue2;
